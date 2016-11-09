@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera { clear: both; }
+.menu { clear: both; }
+.lateral { float: left; width: 20%; }
+.contenido { float: right; width: 77%; }
+.contenido .principal { float: left; width: 77%; }
+.contenido .secundario { float: right; width: 20%; }
+.pie { clear: both; }
+
+body{
+  background-color: transparent;
+  font-family:"Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+}
+
+/*Cabecera*/
+
+.cabecera {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cabecera .buscador {
+  float: right;
+  line-height: 21px;
+}
+
+.cabecera .logo{
+  float: left; 
+  width: 8%
+}
+
+.cabecera .nombre_sitio {
+  display: block;
+  font-size: 48px;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/*Menu*/
+
+.menu{
+  background: #F0F6E4; 
+  position: relative;
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.menu > ul > li {
+  float: left;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:#3D1000;
+  display: block;
+  padding: 10px 20px;
+}
+
+.menu ul li a:hover{
+  background: #F7FAF0;
+}
+.menu > ul > li:hover div{
+  display: table;
+}
+
+/*submenu*/
+.menu ul li div{
+  width: 1000px;
+  position: absolute;
+  left:0;
+  background: #F0F6E4;
+  box-sizing: border-box;
+  display: none;
+}
+
+.menu ul li div ul{
+  width: 20%;
+  display: table-cell;
+/*  border-right: 1px solid rgba(255,255,255,.5);*/
+  box-sizing: border-box;
+}
+
+.menu ul li div ul li:hover{
+  background: #F7FAF0;
+}
+
+/*Contenido*/
+
+.contenido .principal{
+  width: 70%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 1.5%;
+  float: left;
+}
+
+.contenido .principal .imagen{
+  padding: 10px;
+}
+
+.contenido .principal h2{
+  color:#FF5A5F;
+}
+
+.contenido .secundario h3{
+  color:black;
+}
+.contenido .secundario{
+  color:black;
+  width: 20%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("/home/juani/Escritorio/Html/imagenes/board.png");
+  background-size: contain;
+  background-color: #E9E0BE;
+  /*modifico la transparencia de la imagen*/
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.contenido .secundario h2{
+  color:inherit;
+}
+
+/*Lateral*/
+
+.lateral{
+  width: 20%;
+  background:#F7FAF0;
+  float: left;
+  padding: 10px;
+}
+
+.lateral .noticias h3 a{
+  color:#f07f19;
+  text-decoration: none;
+}
+
+.lateral .publicidad h3 a{
+  color:#f07f19;
+  text-decoration: none; 
+}
+
+.lateral .publicidad p{
+/* IE10+ */ 
+background-image: -ms-linear-gradient(top, #DFCF9F 0%, #F1EFD5 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #DFCF9F 0%, #F1EFD5 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #DFCF9F 0%, #F1EFD5 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DFCF9F), color-stop(100, #F1EFD5));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #DFCF9F 0%, #F1EFD5 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #DFCF9F 0%, #F1EFD5 100%);
+}
+
+a:link   
+{   
+ text-decoration:none; 
+ color:blue;  
+} 
+
+a:hover{
+  color:orange;
+}
+
+/*Pie*/
+
+.pie{
+  background: #F0F6E4;
+  clear: both;
+  padding: 10px 0px;
+}
+
+.pie p {
+  color:inherit;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+}

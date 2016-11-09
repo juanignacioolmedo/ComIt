@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera { clear: both; }
+.menu { clear: both; }
+.lateral { float: left; width: 20%; }
+.contenido { float: left; width: 100%; }
+.contenido .principal { float: left;}
+.contenido .secundario { float: left;}
+.contenido .terciario {float: left;}
+.pie { clear: both; }
+
+body{
+  background-color: transparent;
+  font-family:"Helvetica Neue",sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+}
+
+/*Cabecera*/
+
+.cabecera {
+  background: #F0F6E4; 
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 2;
+}
+
+.cabecera .contacto {
+  float: right;
+  line-height: 21px;
+}
+
+.cabecera .logo{
+  float: left; 
+  width: 8%
+}
+
+.cabecera .nombre_sitio {
+  display: block;
+  font-size: 48px;
+/*  text-align:center;
+*/  font-family: 'Roboto', sans-serif;
+}
+
+.telefono {
+	font-size: 30px;
+	color:	#002C45;
+	transition:all .9s ease;
+	margin: 5px;
+    width: 200px;
+}
+
+.telefono:hover{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25);
+    transition: all 2s ease;
+    width: 200px;
+}
+
+/*Menu*/
+
+.menu{
+  background: #F0F6E4; 
+  position: relative;
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.menu > ul > li {
+  float: left;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:#3D1000;
+  display: block;
+  padding: 10px 20px;
+}
+
+.menu ul li a:hover{
+  background: #F7FAF0;
+}
+.menu > ul > li:hover div{
+  display: table;
+}
+
+/*submenu*/
+.menu ul li div{
+  width: 1000px;
+  position: absolute;
+  left:0;
+  background: #F0F6E4;
+  box-sizing: border-box;
+  display: none;
+}
+
+.menu ul li div ul{
+  width: 20%;
+  display: table-cell;
+  box-sizing: border-box;
+}
+
+.menu ul li div ul li:hover{
+  background: #F7FAF0;
+}
+
+/*Contenido*/
+
+.contenido{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.contenido .principal{
+	margin-top: 100px;
+}
+
+.contenido .principal ul{
+	width: 55%;
+	padding-top: 10px;
+	float: left;
+	display: block;
+	list-style: none;
+}
+
+.intro{
+	text-align: justify;
+	color: #002C45;
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Trirong', serif;
+}
+
+.video{
+	display: inline-block;
+	float: left;
+}
+
+.boton {
+	display: inline-block;
+	clear: both;
+	position: relative;
+	float: left;
+	padding: 20px;
+	margin:20px;
+}
+
+.tablero{
+	width: 500px;
+	height: 300px;
+	float:right;
+	display: inline-block;
+	margin-top: -200px;
+	padding-right: 20px;
+	transition:all .9s ease;
+}
+
+.tablero:hover{
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+.titular {
+	font-size: 30px;
+	padding: 10px;
+	font-family: 'Trirong', serif;
+	color:#FF5A5F;
+}
+
+.contenido .secundario{
+	padding: 10px;
+	padding-top: 50px;
+}
+
+.oracion{
+	margin: 5px;
+	font-size: 20px;
+	text-align: center;
+	color: #FF5A5F;
+}
+
+.letras{
+	padding: 10px;
+	text-align: justify;
+	list-style: none;
+}
+
+.caja1, .caja2, .caja3{
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	width: 28%;
+	height: 340px;
+	overflow: scroll;
+	overflow-x: hidden;
+	border:none;
+	color: inherit; 
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 17px;
+	background-color: #F0F6E4;
+}
+
+.botones{
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	clear: both;
+	position: relative;
+}
+
+.contenido .terciario{
+	width: 70%;
+	float: left;
+}
+
+/*Aside*/
+
+.lateral{
+	float: right;
+	height: 263px;
+	margin-top: 30px;
+}
+
+.titulo{
+	color:inherit;
+	padding-bottom: 4.3px;
+	background-color:#F0F6E4;
+}
+
+.titulo1{
+	font-size: 25px;
+	background-color:#F0F6E4;
+	color: inherit;
+}
+
+.parrafo2{
+	margin: 5px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Lobster', cursive;
+}
+
+.links{
+	text-decoration: none;
+	color:#647D8A;
+	text-align: left;
+	display: block;
+}
+
+.links:hover{
+  color: #B9B4B0;
+}
+
+/*Pie*/
+
+.pie{
+  background: #F0F6E4;
+  clear: both;
+  padding: 10px 0px;
+}
+
+.pie p {
+  color:inherit;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+}

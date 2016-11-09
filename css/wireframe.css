@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Trirong');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Fjalla+One|Lobster|Trirong');
+
+
+*{
+  margin: auto;
+  padding:auto;
+}
+
+/*.cabecera { 
+	background-color: 	#C0C0C0;
+
+}*/
+.menu { clear: both;}
+.elementos {width: 100%;
+	height: 75px;
+	}
+
+	.elemento {
+		font-size: 25px;
+	}
+	.nombres{
+		text-align: center;
+		margin: 10px;
+	}
+.contenido{clear: both;}
+.contenido .principal{clear: both;}
+.contenido .secundario{clear: both;}
+.pie { clear: both; }
+
+body{
+  background-color: #f3f1ef;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #171B35;
+}
+
+
+
+
+
+
+
+
+
+
+.letras{
+	padding: 10px;
+	text-align: justify;
+}
+
+.secundario{
+	padding: 10px;
+}
+
+.oracion{
+	margin: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/*Cabecera*/
+
+.cabecera{
+	height: auto;
+	width: 100%;
+	max-width: 1920px;
+	margin:0;
+
+	box-sizing: border-box;
+}
+
+.botones{
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	clear: both;
+	position: relative;
+}
+
+.nombresitio {
+
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 35px;
+	float: left;
+	color: 	#20B2AA;
+
+
+}
+
+.logo {
+	margin: 10px;
+}
+
+.tiburon {
+	margin-top: -300px;
+}
+.contacto{
+	font-size: 30px;
+	color: 	#20B2AA;
+}
+.telefono {
+	color:	#002C45;
+
+}
+
+.cabecera .logo{
+  float: left; 
+  width: 7%;
+}
+
+.titulo1{
+	margin: 2px;
+	padding: 10px;
+	font-size: 25px;
+	background-color: 	#002C45;
+	color: white;
+	font-family: 'Lobster', cursive;
+
+
+}
+
+.lateral{
+	margin-top: 30px;
+}
+
+.parrafo2{
+
+margin: 5px;
+padding: 10px;
+font-size: 20px;
+font-family: 'Lobster', cursive;
+
+}
+.cabecera .nombre_sitio {
+  display: block;
+  font-size: 28px;
+  text-align:left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecera .contacto{
+	float: right;
+	color:green;
+}
+
+/*Menu*/
+
+.menu{
+	position: relative;
+	display: inline;
+
+}
+
+.elementos {
+	float: right;
+	background-color: #002C45;
+}
+
+.elemento {
+	float: left; 
+    list-style-type: none;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	text-align: right;	
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 10px 20px;
+	float: right; 
+}
+
+.menu ul li a:hover{
+  background: #999;
+}
+
+/*Contenido*/
+
+.contenido{
+	padding: 40px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.contenido .principal p{
+	width: 55%;
+	padding-top: 10px;
+	float: left;
+	display: block;
+}
+
+.titular {
+	font-size: 30px;
+	padding: 10px;
+	font-family: 'Trirong', serif;
+
+
+
+}
+.parrafo{
+	text-align: justify;
+	color: #002C45;
+	padding: 10px;
+	font-size: 15px;
+	font-family: 'Trirong', serif;
+
+}
+
+..boton {
+	display: inline-block;
+	clear: both;
+	position: relative;
+	float: left;
+	padding: 20px;
+	margin:20px;
+}
+
+.tiburon{
+	width: 500px;
+	height: 250px;
+	float:right;
+	padding: 10px;
+	display: inline-block;
+}
+
+.contenido .secundario{
+	padding-top: 50px;
+}
+
+.caja1, .caja2, .caja3{
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	width: 28%;
+	height: 340px;
+	overflow: hidden;
+	border:none;
+	background-color:#002C45;
+	color: white; 
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 17px;
+
+
+}
+
+.link{
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+	color:black;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	width: 100px;
+}
+
+.link:hover{
+  background: #F7FAF0;
+}
+
+.contenido .terciario{
+	width: 70%;
+	float: left;
+/*	border:black 0.1px solid; 
+*/}
+
+/*Aside*/
+
+.lateral{
+	float: right;
+/*	border:black 0.1px solid;
+*/	height: 263px;
+}
+
+.titulo{
+	color:inherit;
+	padding-bottom: 4.3px;
+}
+
+.links{
+	text-decoration: none;
+	color:#647D8A;
+	text-align: left;
+	display: block;
+}
+
+.links:hover{
+  color: #B9B4B0;
+}
+
+
+/*Footer*/
+.redes{
+	clear: both;
+	padding-top: 10px;
+	background-color: #3D5C6D;
+	color:#B9B4B0;
+	width: 100%;
+}
+
+.red{
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	color:#B9B4B0;
+}
+
+.dominio{
+	width: 100%;
+	height: 300px;
+	background-color;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.pie{
+	color: #B9B4B0;
+	clear: both;
+	padding: 10px 0px;
+	background-color: #3D5C6D;
+	overflow: hidden;
+	width: 100%;
+}
+
+.red2{
+	margin: 10px;
+	background-color: #3D5C6D;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	color:#B9B4B0;
+/*	border-right: white 1px solid;
+*/}

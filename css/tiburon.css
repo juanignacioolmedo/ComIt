@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cabecera { clear: both; }
+.menu { clear: both; }
+.lateral { float: left; width: 20%; }
+.contenido { float: right; width: 77%; }
+.contenido .principal { float: left; width: 77%; }
+.contenido .secundario { float: right; width: 20%; }
+.pie { clear: both; }
+
+body{
+  background-color: transparent;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+}
+
+/*Cabecera*/
+
+.cabecera {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cabecera .buscador {
+  float: right;
+  line-height: 21px;
+}
+
+.cabecera .logo{
+  float: left; 
+  width: 8%
+}
+
+/*Menu*/
+
+.menu ul li { display: inline; float: left; }
+
+.menu{
+  background: #F0F6E4;
+  overflow: hidden;
+}
+
+.menu ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float: left;
+}
+
+.menu ul li a{
+  display: block;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  color:#3D1000;
+}
+
+.menu ul li a:hover{
+  background: #F7FAF0;
+}
+
+/*Contenido*/
+
+.contenido .principal{
+  width: 70%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 1.5%;
+  float: left;
+}
+
+.contenido .principal .imagen{
+  padding: 10px;
+}
+
+.contenido .principal h2{
+  color:#FF5A5F;
+}
+
+.contenido .secundario h3{
+  color:black;
+}
+.contenido .secundario{
+  width: 20%;
+/*  background:#E9E0BE;*/
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url("http://tidalvisionusa.com/wp-content/uploads/2015/05/ocean-floor-background.png");
+}
+
+.contenido .secundario h2{
+  color:inherit;
+}
+
+/*Lateral*/
+
+.lateral{
+  width: 20%;
+  background:#F7FAF0;
+  float: left;
+  padding: 10px;
+}
+
+.lateral .noticias h3 a{
+  color:#f07f19;
+  text-decoration: none;
+}
+
+.lateral .publicidad h3 a{
+  color:#f07f19;
+  text-decoration: none; 
+}
+
+.lateral .publicidad p{
+  background: rgba(226,226,226,1);
+  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(23%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 23%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}
+
+a:link   
+{   
+ text-decoration:none; 
+ color:blue;  
+} 
+
+a:hover{
+  color:orange;
+}
+
+/*Pie*/
+
+.pie{
+  background: #F0F6E4;
+  clear: both;
+  padding: 10px 0px;
+}
+
+.pie p {
+  color:inherit;
+  clear: both;
+  padding: 10px;
+  text-align: center;
+}

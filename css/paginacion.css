@@ -1,0 +1,51 @@
+.contenedor{
+	position: relative;
+	padding-top: 10px;
+}
+
+.caja1{
+	width: 150px;
+    height: 150px;
+	overflow: hidden;
+	margin: 20px;
+}
+
+.caja2{
+	width: 150px;
+    height: 150px;
+	overflow: visible;
+	margin: 20px;
+}
+
+.caja3{
+	width: 150px;
+    height: 150px;
+	overflow: scroll;
+	margin: 20px;
+}
+
+.caja1, .caja2, .caja3{
+	float: left;
+}
+.paginador{
+	background-color: grey;
+	color:white;
+	padding: 20px;
+	clear: both;
+}
+
+.siguiente, .anterior{
+	text-decoration:none;
+	color:white;
+	padding: 5px 0px;
+}
+
+.siguiente{
+	float: right;
+	padding: 5px 0px;
+}
+
+/*Word­wrap: corta la palabra larga
+Word­break: corta todas las palabras en cualquier parte
+Text­overflow: "clip"corta el texto hasta donde entra en el contenedor y no muestra el sobrante
+ellipsis: agrega el ... al texto al cortar*/

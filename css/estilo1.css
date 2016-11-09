@@ -1,0 +1,112 @@
+body {
+    background-color: #E6DAA8;
+    
+}
+/*nav ul li a{
+	color: brown;
+	text-decoration: none;
+*/
+
+
+.inicio {
+	float: left; width: 25%;
+}
+
+.contacto {
+	float: center; width: 25%;
+}
+
+.categoria {
+	float: right; width: 25%;
+}
+
+.menu{
+	padding-bottom: 0px;
+}
+
+{
+  padding: 0;
+  margin: 0;
+}
+
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+	background: #E6DAA8;
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+}
+
+.logo{
+	float: left; width: 8%;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main{
+	float: left;
+	width: 65%;
+}
+
+.secundario{
+	float: right;
+	width: 25%;
+	padding-top: 20px;
+}
+
+.imagen{
+	width:"450"
+}
+
+/*}
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/*selected link*/ 
+a:active {
+    color: yellow;
+}
+
+/*nav ul li:hover {
+  background: #3ead47;
+}*/
+.contenido {
+  padding-top: 50px;
+}
